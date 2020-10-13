@@ -10,7 +10,7 @@ namespace test2_1
     {
         static void Main(string[] args)
         {
-            double dia;
+            double dia, radie;
 
             Console.Write("Ange cirkelns diameter: ");
 
@@ -20,7 +20,7 @@ namespace test2_1
             Console.WriteLine();
             Console.Write("... omkretsen: " + dia * Math.PI);
             Console.WriteLine();
-            Console.Write("... arean: " + Math.PI * Math.Pow(4, 2));
+            Console.Write("... arean: " + dia * dia * Math.PI / 4);
          
             //stop
             Console.ReadKey();
